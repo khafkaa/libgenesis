@@ -37,11 +37,11 @@ import pandas as pd
 from requests import exceptions
 from requests_html import HTMLSession
 
-from utilities.iter.accessories import cleave
-from utilities.iter.accessories import chunks
-from utilities.telecom.webtoolkit import download, DOWNLOADS
-from utilities.telecom.webtoolkit import random_user_agent
-from utilities.system.tools import apply_extension, sysinfo
+from iter.accessories import cleave
+from iter.accessories import chunks
+from telecom.webtoolkit import download, DOWNLOADS
+from telecom.webtoolkit import random_user_agent
+from system.tools import apply_extension, sysinfo
 
 HERE = getenv('libpath', '')
 THERE = DOWNLOADS
